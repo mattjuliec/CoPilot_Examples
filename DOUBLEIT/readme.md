@@ -14,14 +14,14 @@ https://www.mathworks.com/help/simulink/ug/incorporate-c-code-using-a-matlab-fun
 
 Change the model to generate a continuous stream rather than just a value as shown here:
 
-![](images/SIMULINK_MODEL.png){:height="20%" width="20%"}
+![](images/SIMULINK_MODEL.png)
 
-![](images/MATLAB_SIMULINK_BLOCK_CODE.png =500x250)
+![](images/MATLAB_SIMULINK_BLOCK_CODE.png)
 
 
 Set the step function to run with the following parameters
 
-![](images/STEP_FUNC_PARAMS.png =500x500)
+![](images/STEP_FUNC_PARAMS.png)
 
 Now compile the Copilot Monitor and execute it to generate the c source files:
 
@@ -39,12 +39,12 @@ To compile the monitor as a C99 object file type:
 
 Now configure the parameters in Simulink (under simulation / model configuration parameters) as shown:
 
-![](images/SIMULATION_PARAMS.png =400x300)
-![](images/SIMULATION_PARAMS02.png =400x300)
+![](images/SIMULATION_PARAMS.png)
+![](images/SIMULATION_PARAMS02.png)
 
 Once complete, you should see the below graph. Notice that any value below 0.0 and above 200.0 is truncated based on the triggers established in CoPilot
 
-![](images/DOUBLEIT_GRAPH.png =500x500)
+![](images/DOUBLEIT_GRAPH.png)
 
 
 
