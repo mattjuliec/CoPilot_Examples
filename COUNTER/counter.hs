@@ -3,6 +3,7 @@
 --------------------------------------------------------------------------------
 
 -- | Example showing an implementation of a resettable counter.
+-- | compile the example with ghc counter.hs, run ./counter and you will see result. Change the number to interpret
 
 {-# LANGUAGE RebindableSyntax #-}
 
