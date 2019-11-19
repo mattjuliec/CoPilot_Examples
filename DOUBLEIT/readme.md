@@ -14,7 +14,7 @@ https://www.mathworks.com/help/simulink/ug/incorporate-c-code-using-a-matlab-fun
 
 Change the model to generate a continuous stream rather than just a value as shown here:
 
-![](images/SIMULINK_MODEL.png =400x300)
+![](images/SIMULINK_MODEL.png){:height="20%" width="20%"}
 ![](images/MATLAB_SIMULINK_BLOCK_CODE.png =500x250)
 
 
