@@ -1,3 +1,14 @@
+/*--------------------------------------------------------------------------------
+-- Copyright © 2011 National Institute of Aerospace / Galois, Inc.
+--------------------------------------------------------------------------------
+
+| Example implementing an engine cooling control system.
+> ghc Engine.hs
+> ./Engine.hs
+> c99 driver.c engine.c -o driver
+> ./driver
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>

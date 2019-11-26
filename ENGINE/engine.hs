@@ -7,7 +7,7 @@
 {-# LANGUAGE RebindableSyntax #-}
 
 module Main where
-
+-- Added c99 library for compilation
 import Language.Copilot
 import Copilot.Compile.C99
 
@@ -39,5 +39,6 @@ engineMonitor = do
 
 main :: IO ()
 -- main = interpret 10 engineMonitor
+-- added compile option
 main = reify engineMonitor >>= compile "engine"
 
