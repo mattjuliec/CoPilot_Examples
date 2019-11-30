@@ -7,10 +7,18 @@ To install the CoPilot type in a terminal:
 ```bash
 > cabal install copilot
 ```
+To install from source 
+git clone  https://github.com/Copilot-Language/copilot
+git clone  https://github.com/Copilot-Language/copilot-c99/
+git clone  https://github.com/Copilot-Language/copilot-core/
+git clone  https://github.com/Copilot-Language/copilot-language/
+git clone  https://github.com/Copilot-Language/copilot-libraries/
+git clone  https://github.com/Copilot-Language/copilot-theorem/
+find . -iname '*.cabal' -exec dirname {} \; | xargs cabal install
+
 To create a demo function in Matlab that reads in a value and doubles it. Follow the instructions in
 https://www.mathworks.com/help/simulink/ug/incorporate-c-code-using-a-matlab-function-block.html
 Refer to the DOUBLEIT example for configuration details
-[DOUBLEIT]/readme.md/  
 
 
 Now compile the Copilot Monitor and execute it to generate the c source files:

@@ -1,3 +1,10 @@
+--------------------------------------------------------------------------------
+-- Copyright © 2019 National Institute of Aerospace / Galois, Inc.
+--------------------------------------------------------------------------------
+
+-- | Example showing how to sample data.
+-- | compile the example with ghc Periodical.hs, run ./Periodical and you will see result. Change the number to interpret
+
 import Language.Copilot
 import Copilot.Compile.C99
 
@@ -33,5 +40,4 @@ spec = do
   trigger "heaton"  (true) [arg periodical]
 
 -- Compile the spec
--- main = interpret 10 spec
-main = reify spec >>= compile "periodical"
+main = interpret 10 spec
