@@ -20,13 +20,13 @@ double sampleIT(double u);
 int main (int argc, char const *argv[])
 {
     int i;
-    value = 0.0;
+    value = 0.1;
     printf("|Iteration|    |    Value   |\n");
     for (i = 0; i < 10; i++)
         {
             value = sampleIT(value);
             printf("|    %d    |    |  %f  |\n",i,value);
-            value = value+0.1;
+            // value = value+0.1;
         }
         return 0;
 }
